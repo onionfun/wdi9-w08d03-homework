@@ -5,9 +5,10 @@ const GifItem =(image)=>{
 
         return(
             <li>
-                <img src={image.gifs.url} />
+            <img src={image.gif.images.downsized.url} />
             </li>
         )
     }
+
 
     export default GifItem;
